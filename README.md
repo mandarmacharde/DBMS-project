@@ -1,3 +1,4 @@
+# Database Name : retail
 # Database Schema and Inserted Values
 
 # Schema
