@@ -1,8 +1,8 @@
-# React + Vite
+# Database Schema and Inserted Values
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Schema
+create table user(id int primary key,username varchar(20) unique not null,password varchar(50) unique not null,role varchar(20));
 
-Currently, two official plugins are available:
+# Inserted Values
+insert into user(id,username,password,role) values(100,'vedaant','student','administrator');
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
